@@ -1064,7 +1064,7 @@ height: 70vh;
   background-image: linear-gradient(to right, #7e57c2, #313073);
   border-radius: 30px;
   position: absolute;
-  margin-top: -100px;
+  margin-top: -110px;
   opacity: 1;
   width: 86%;
   right: 145px;
@@ -1377,6 +1377,29 @@ div.conn {
   /* form {
     width: 100%;
   } */
+  /* contact form */
+  .contact-border {
+    /* border: 1px solid #313073;  */
+    background-image: linear-gradient(to right, #7e57c2, #313073);
+    border-radius: 30px;
+    position: absolute;
+    top: 90px;
+    margin-top: 60px;
+    opacity: 1;
+    width: 86%;
+    right: 105px;
+    left: 30px;
+  }
+  .contact-info-txt {
+    font: normal normal bold 22px/30px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    /* margin-top: 66px; */
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
 }
 @media (max-device-width: 768px) {
   h1.ew-home-heading {
@@ -1400,6 +1423,40 @@ div.conn {
     max-width: 300px;
     max-height: 400px;
   }
+  .ew-contact-image {
+    padding: 10px 10px 10px 10px;
+    width: 40%;
+    /* background: #EEEEEE 0% 0% no-repeat padding-box; */
+    opacity: 1;
+    margin-top: 60px;
+  }
+  .hover-2,
+  .hover-3,
+  .hover-1 {
+    padding: 10px 0px;
+  }
+  .contact-border {
+    /* border: 1px solid #313073;  */
+    background-image: linear-gradient(to right, #7e57c2, #313073);
+    border-radius: 30px;
+    position: absolute;
+    top: 10px;
+    /* margin-top: 10px; */
+    opacity: 1;
+    width: 86%;
+    right: 105px;
+    left: 30px;
+  }
+  .contact-info-txt {
+    font: normal normal bold 22px/30px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    /* margin-top: 66px; */
+    font-size: 10px;
+    margin-bottom: 10px;
+    /* padding: 10px; */
+  }
 }
 /* media for Contact */
 @media (max-width: 768px) {
@@ -1408,8 +1465,8 @@ div.conn {
     background-image: linear-gradient(to right, #7e57c2, #313073);
     border-radius: 30px;
     position: absolute;
-    top: 90px;
-    margin-top: 60px;
+    top: 10px;
+    margin-top: 100px;
     opacity: 1;
     width: 86%;
     right: 105px;
@@ -1423,6 +1480,6 @@ div.conn {
     /* margin-top: 66px; */
     font-size: 15px;
     margin-bottom: 10px;
-    padding: 10px;
+    /* padding: 10px; */
   }
 }
