@@ -13,7 +13,7 @@
   color: var(--ew-Heading-color);
 }
 nav {
-  background-color: rgb(248, 246, 244);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 html {
   scroll-behavior: smooth;
@@ -26,7 +26,7 @@ body {
   overflow-x: hidden;
 }
 .navbar-fixed-top.scrolled {
-  background-color: rgb(24, 23, 23) !important;
+  background-color: rgba(246, 246, 246, 0.5);
   transition: background-color 200ms linear;
 }
 
@@ -121,8 +121,8 @@ span.ew-bluehigh {
   /* align-items: center; */
 }
 
-.nav-item :hover,
-.nav-link.active {
+.ew-navigation .nav-item :hover,
+.ew-navigation .nav-link.active {
   font-size: 13px;
 
   color: #313073;
@@ -133,8 +133,8 @@ span.ew-bluehigh {
 
   transform: scale(1.05);
 }
-.nav-item :hover,
-.nav-link.active {
+.ew-navigation .nav-item :hover,
+.ew-navigation .nav-link.active {
   font-size: 13px;
 
   color: #313073;
