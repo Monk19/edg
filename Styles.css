@@ -133,6 +133,18 @@ span.ew-bluehigh {
 
   transform: scale(1.05);
 }
+.nav-item :hover,
+.nav-link.active {
+  font-size: 13px;
+
+  color: #313073;
+
+  font-weight: 600;
+
+  transition: all 0.3s ease;
+
+  transform: scale(1.05);
+}
 h1.ew-home-heading {
   color: #313073;
   font-size: 40px;
@@ -1420,7 +1432,7 @@ div.conn {
 }
 @media screen and (max-width: 425px) {
   .tab-content img {
-    max-width: 300px;
+    max-width: 60vw;
     max-height: 400px;
   }
   .ew-contact-image {
