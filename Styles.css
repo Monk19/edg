@@ -13,8 +13,9 @@
   color: var(--ew-Heading-color);
 }
 nav {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.767);
 }
+
 html {
   scroll-behavior: smooth;
   width: 100%;
@@ -100,7 +101,7 @@ span.ew-bluehigh {
 }
 
 .nav-link {
-  color: grey;
+  color: rgba(41, 37, 37, 0.918);
 
   border: none;
 
@@ -194,7 +195,7 @@ img.ew-logo {
 .ew-home-container {
   position: absolute;
   top: 20%;
-  right: 10%;
+  right: 24%;
 }
 .ew-home-container-1 {
   position: absolute;
@@ -264,7 +265,7 @@ img.ew-about-image {
   color: white;
 }
 .mt-6 {
-  margin-top: 4rem !important;
+  margin-top: 7rem !important;
 }
 
 .ew-readmore-float-right-buttons {
@@ -879,7 +880,7 @@ li.int {
   background-color: rgba(255, 255, 255, 0);
 }
 /* .navbar-nav > .active > a {
-  background-color: #c0c0c0;
+  background-color: #0c0303;
   color: green;
 } */
 ul.navTabs li a {
@@ -1179,6 +1180,9 @@ textarea {
 }
 
 @media (max-width: 991px) {
+  .ew-home-container {
+    right: 4%;
+  }
   .about-para {
     padding: 0px 1rem;
   }
@@ -1215,6 +1219,9 @@ textarea {
   h1 {
     font-size: 2rem;
   }
+  .ew-home-container {
+    right: 4%;
+  }
   .our-img {
     width: 100%;
     height: 30%;
@@ -1232,6 +1239,12 @@ div.conn {
 
 /* Media Queries */
 @media (max-device-width: 767px) {
+  div.ew-headbtn {
+    position: absolute;
+    top: 180px;
+    font-size: 100px !important;
+  }
+
   .mob-btn {
     margin-bottom: 60px;
 
@@ -1495,3 +1508,4 @@ div.conn {
     /* padding: 10px; */
   }
 }
+/* Style changes by ravi */
